@@ -5,7 +5,7 @@ This simulator application is derived from the Meshtastic interactive simulator 
 2. The transmission radio type used in each packet. They are arbitrary types for reference purposes only. No code was changed to an individual radio's RSSI, SNR, transmission distance or other characteristics. The is because the simulator is the LoRa radio itself and cannot be altered without significant changes to the mesh interface or Linux native application.
 3. The final graphed pathway results, updated with radio type for each packet.
 
-Please note the "program" file is not usable and must be created with the use of Visual Studio Code and PlatformIO.
+Please note the "program" file is not included in the repository and must be created with the use of Visual Studio Code and PlatformIO. It goes in the main folder.
 
 
 ## Meshtasticator
