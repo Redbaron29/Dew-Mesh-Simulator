@@ -1,4 +1,5 @@
-#Dew-Mesh Simulator
+## Dew-Mesh Simulator
+
 This simulator application is derived from the Meshtastic interactive simulator in the comments below. All the original work was written by GUVWAF (github.com/GUVWAF). The additions to this application can be found within the ./interactive.py and interactiveSim.py files. The additional code produces:
 1. More transparent node communication in the main running terminal. This includes details of each transferred packet, radio type used, sender/recipient details and text data.
 2. The transmission radio type used in each packet. They are arbitrary types for reference purposes only. No code was changed to an individual radio's RSSI, SNR, transmission distance or other characteristics. The is because the simulator is the LoRa radio itself and cannot be altered without significant changes to the mesh interface or Linux native application.
